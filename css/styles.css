@@ -26,3 +26,20 @@ main {
 p {
     margin-bottom: 15px;
 }
+.parrafo-desarrollo {
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.parrafo-despliegue {
+    border-left: 4px solid #2ecc71;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.parrafo-colaboracion {
+    border-left: 4px solid #e74c3c;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
