@@ -105,3 +105,26 @@ Es preferible realizar varios commits pequeños y coherentes en lugar de un úni
 
 10. **¿Puede seguir evolucionando el repositorio original mientras existe el fork?**
     Sí. Para actualizar tu fork con los nuevos cambios que ocurran en el original, basta con sincronizar tu rama local desde el remoto `upstream` y subirlos a tu `origin`.
+
+    ## Colaboración y Pull Requests
+
+1. **¿Qué es un Issue en GitHub y para qué se utiliza?**
+   Es una herramienta de seguimiento que permite reportar errores, proponer nuevas características, organizar tareas o debatir aspectos del proyecto de forma estructurada.
+
+2. **¿Qué diferencia existe entre hacer cambios directamente en la rama main y hacerlo mediante una rama y una Pull Request?**
+   Hacerlos en `main` aplica las modificaciones directamente sin revisión previa, mientras que usar una rama y una PR permite revisar el código, ejecutar pruebas y debatir las mejoras antes de integrarlas al proyecto principal.
+
+3. **¿Por qué es recomendable vincular un commit o una Pull Request con un Issue?**
+   Porque proporciona trazabilidad, ayuda a comprender el motivo del cambio y permite que GitHub cierre automáticos los Issues cuando la PR se fusiona (usando palabras clave como `Closes #1` o `Fixes #1`).
+
+4. **Resumen de la colaboración realizada:**
+   - **Repositorio objetivo:** `https://github.com/usuario_compañero/proyecto`
+   - **Issue creado:** `#1 - Mejora de accesibilidad en el pie de página`
+   - **Pull Request enviada:** `#1 - Aplica correcciones de contraste y estructura`
+   - **Estado final:** [Fusionada / En revisión]
+
+
+
+   ## Versiones del proyecto
+
+- **v1.0.0**: Primera versión estable del sitio web con estructura semántica completa, estilos CSS aplicados, documentación teórica y despliegue público en GitHub Pages.
