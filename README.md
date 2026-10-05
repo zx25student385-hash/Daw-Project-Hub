@@ -3,7 +3,7 @@
 Pequeña página web para practicar un flujo profesional de trabajo con Git y GitHub.
 
 ## Entorno de desarrollo
-- **Versión de Git:** [Anota aquí el resultado del comando git --version]
+- **Versión de Git:** 2.55.0
 - **Sistema operativo:** Windows 11 
 - **Editor de código:** Visual Studio Code
 
@@ -121,7 +121,7 @@ Es preferible realizar varios commits pequeños y coherentes en lugar de un úni
    - **Repositorio objetivo:** `https://github.com/usuario_compañero/proyecto`
    - **Issue creado:** `#1 - Mejora de accesibilidad en el pie de página`
    - **Pull Request enviada:** `#1 - Aplica correcciones de contraste y estructura`
-   - **Estado final:** [Fusionada / En revisión]
+   
 
 
 
