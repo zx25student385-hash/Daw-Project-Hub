@@ -34,3 +34,20 @@ Pequeña página web para practicar un flujo profesional de trabajo con Git y Gi
 
 
    Conexión SSH con GitHub: comprobada correctamente
+   ## Historial del proyecto
+
+Es preferible realizar varios commits pequeños y coherentes en lugar de un único commit con toda la página porque facilita la trazabilidad de los cambios, permite aislar y corregir errores rápidamente sin perder otro trabajo, simplifica las revisiones de código y permite que cada funcionalidad se registre de forma independiente y clara.
+
+## Seguridad y archivos ignorados
+
+1. **¿Por qué `.env.example` puede publicarse?**
+   Porque sirve como plantilla para que otros desarrolladores sepan qué variables de entorno necesita el proyecto para funcionar, sin exponer valores reales ni credenciales secretas.
+
+2. **¿Por qué `.env` debe ignorarse?**
+   Porque almacena información confidencial del entorno local (como claves de API, contraseñas o tokens privados) que jamás deben estar visibles públicamente.
+
+3. **¿Qué habría que hacer si una contraseña o un token reales se hubieran publicado en GitHub?**
+   Se debe revocar e invalidar la clave o token expuesto inmediatamente en el servicio correspondiente, generar uno nuevo y dar por comprometido el dato anterior.
+
+4. **¿Bastaría con eliminar el archivo en un commit posterior?**
+   No, porque Git guarda la historia completa del repositorio. Aunque se borre el archivo en un commit nuevo, el dato sensible seguiría siendo accesible consultando el historial de commits anteriores.
