@@ -72,3 +72,36 @@ Es preferible realizar varios commits pequeños y coherentes en lugar de un úni
 
 - **Repositorio remoto en GitHub:** `https://zx25student385-hash.github.io/daw-project-hub/`
 - **Página publicada en GitHub Pages:** `https://zx25student385-hash.github.io/daw-project-hub/`
+
+## Forks y colaboración
+
+1. **¿Qué es un fork en GitHub?**
+   Es una copia completa e independiente de un repositorio de GitHub alojada directamente en tu propia cuenta de usuario.
+
+2. **¿En qué se diferencia un fork de una rama?**
+   Una rama se crea dentro del propio repositorio original para aislar cambios, mientras que un fork es un repositorio completamente independiente ubicado en otra cuenta de GitHub.
+
+3. **¿En qué cuenta se almacena un fork?**
+   Se almacena en la cuenta personal de GitHub del usuario que realiza la copia (fork).
+
+4. **¿Cuándo resulta útil trabajar mediante un fork?**
+   Resulta útil cuando deseas contribuir a proyectos de código abierto o repositorios de terceros sobre los cuales no tienes permisos directos de escritura.
+
+5. **¿Qué relación existe entre el repositorio original y el fork?**
+   El fork mantiene un vínculo de origen que le permite rastrear los cambios del repositorio original y proponerle mejoras a través de Pull Requests.
+
+6. **¿Qué es el repositorio upstream?**
+   Es el nombre convencional que se le da al remoto que apunta directamente al repositorio original del cual creaste el fork.
+
+7. **¿Qué diferencia existe entre origin y upstream?**
+   - `origin`: Apunta a tu copia del proyecto (tu fork) en GitHub.
+   - `upstream`: Apunta al repositorio original del propietario o proyecto principal.
+
+8. **¿Cómo se propone que un cambio del fork llegue al repositorio original?**
+   Publicando los cambios en una rama de tu fork en GitHub y abriendo desde allí una **Pull Request** hacia la rama principal del repositorio original.
+
+9. **¿Quién decide si se acepta la propuesta?**
+   El propietario, mantenedor o administrador del repositorio original.
+
+10. **¿Puede seguir evolucionando el repositorio original mientras existe el fork?**
+    Sí. Para actualizar tu fork con los nuevos cambios que ocurran en el original, basta con sincronizar tu rama local desde el remoto `upstream` y subirlos a tu `origin`.
