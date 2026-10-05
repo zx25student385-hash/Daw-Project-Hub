@@ -52,4 +52,23 @@ Es preferible realizar varios commits pequeños y coherentes en lugar de un úni
 4. **¿Bastaría con eliminar el archivo en un commit posterior?**
    No, porque Git guarda la historia completa del repositorio. Aunque se borre el archivo en un commit nuevo, el dato sensible seguiría siendo accesible consultando el historial de commits anteriores.
 
-   - Actualización realizada directamente desde la interfaz web de GitHub.
+   ## Conflicto resuelto
+
+- **Causa del conflicto:** Se modificó la misma línea del párrafo dentro del `<header>` en `index.html` con textos distintos en las ramas `main` y `feature/nuevo-eslogan`.
+- **Archivo afectado:** `index.html`.
+- **Decisión tomada:** Se revisaron ambas versiones y se optó por unificar la redacción manteniendo el eslogan más claro e integrador.
+- **Proceso de resolución:** Se eliminaron manualmente los marcadores de conflicto (`<<<<<<<`, `=======`, `>>>>>>>`), se guardó el archivo limpio, se añadió al staging mediante `git add` y se completó la fusión creando el commit correspondiente.
+
+
+## Sincronización remota
+
+1. **¿Qué función cumple la opción `-u` en `git push -u origin main`?**
+   Establece la relación de rastreo (*upstream*) entre la rama local `main` y la rama remota `origin/main`, permitiendo usar posteriormente comandos simplificados como `git push` o `git pull` sin especificar el remoto ni la rama.
+
+2. **¿Qué diferencia existe entre `git fetch` y `git pull`?**
+   `git fetch` descarga las novedades e información del repositorio remoto sin modificar ni alterar el código del directorio de trabajo local, mientras que `git pull` descarga los cambios y los fusiona (*merge*) automáticamente en la rama local activa.
+
+   ## Enlaces de entrega
+
+- **Repositorio remoto en GitHub:** `https://zx25student385-hash.github.io/daw-project-hub/`
+- **Página publicada en GitHub Pages:** `https://zx25student385-hash.github.io/daw-project-hub/`
