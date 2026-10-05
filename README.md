@@ -51,3 +51,5 @@ Es preferible realizar varios commits pequeños y coherentes en lugar de un úni
 
 4. **¿Bastaría con eliminar el archivo en un commit posterior?**
    No, porque Git guarda la historia completa del repositorio. Aunque se borre el archivo en un commit nuevo, el dato sensible seguiría siendo accesible consultando el historial de commits anteriores.
+
+   - Actualización realizada directamente desde la interfaz web de GitHub.
